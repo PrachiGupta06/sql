@@ -1,0 +1,3 @@
+1.select count(*),TO_CHAR(to_date(START_DATE,'DD-MM-YYYY'),'Month') from BATCH where batch.TOUR_ID=1 group by START_DATE;
+
+2.
